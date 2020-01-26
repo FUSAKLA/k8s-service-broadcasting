@@ -1,0 +1,7 @@
+
+service:
+  golangci-lint-version: 1.13.1
+
+linters-settings:
+  errcheck:
+    exclude: .errcheck_excludes.txt
