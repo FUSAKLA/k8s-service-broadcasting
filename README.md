@@ -1,5 +1,8 @@
 # K8s service broadcasting
 
+![CircleCI](https://img.shields.io/circleci/build/github/FUSAKLA/k8s-service-broadcasting/master?style=flat-square)
+![Docker Pulls](https://img.shields.io/docker/pulls/fusakla/k8s-service-broadcasting?style=flat-square)
+
 Tool allowing to broadcast/mirror/duplicate HTTP requests to all ready endpoints of a Kubernetes service.
 
 It supports two modes:
