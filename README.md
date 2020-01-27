@@ -45,15 +45,5 @@ This interface is running by default on `0.0.0.0:8081`. The endpointa are:
 make build
 ```
 
-**docker**
-```bash
-make docker
-```
-
-## Release
-```bash
-make docker-push
-```
-
 ## Deployment
 See the [`kubernetes/`](./kubernetes) folder with example.

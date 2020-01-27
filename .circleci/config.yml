@@ -16,6 +16,7 @@ jobs:
   test:
     executor: golang
     steps:
+    - prometheus/setup_environment
     - run: make
     - prometheus/store_artifact:
         file: k8s-service-broadcasting
